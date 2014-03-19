@@ -52,6 +52,11 @@ h1.title {
 .scores-container {
   float: right;
   text-align: right; }
+.blink{
+  transform:rotate(-10deg);
+-ms-transform:rotate(-10deg); /* IE 9 */
+-webkit-transform:rotate(-10deg); /* Opera, Chrome, and Safari */
+}
 
 .score-container, .best-container {
   position: relative;
